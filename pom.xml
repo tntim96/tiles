@@ -121,9 +121,9 @@
             </dependency>
 
             <dependency>
-                <groupId>org.apache.velocity</groupId>
-                <artifactId>velocity-tools</artifactId>
-                <version>2.0</version>
+                <groupId>com.github.tntim96.velocity.tools</groupId>
+                <artifactId>velocity-tools-generic</artifactId>
+                <version>3.3-SNAPSHOT</version>
                 <exclusions>
                     <exclusion>
                         <artifactId>struts-taglib</artifactId>
@@ -259,6 +259,7 @@
             	<artifactId>tiles-request-api</artifactId>
             	<version>${tiles.request.version}</version>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
 
