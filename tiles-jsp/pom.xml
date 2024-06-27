@@ -24,7 +24,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <parent>
-    <groupId>org.apache.tiles</groupId>
+    <groupId>com.github.tntim96.tiles</groupId>
     <artifactId>tiles-parent</artifactId>
     <version>3.1-SNAPSHOT</version>
   </parent>
@@ -70,7 +70,7 @@
         </configuration>
       </plugin>
       <plugin>
-        <groupId>org.apache.tiles.autotag.plugin</groupId>
+        <groupId>com.github.tntim96.tiles.autotag.plugin</groupId>
         <artifactId>maven-autotag-plugin</artifactId>
         <version>${tiles.autotag.version}</version>
         <executions>
@@ -117,11 +117,11 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.apache.tiles</groupId>
+      <groupId>com.github.tntim96.tiles</groupId>
       <artifactId>tiles-servlet</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.apache.tiles</groupId>
+      <groupId>com.github.tntim96.tiles</groupId>
       <artifactId>tiles-template</artifactId>
     </dependency>
 
@@ -143,13 +143,13 @@
     </dependency>
 
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>javax.servlet.jsp</groupId>
-      <artifactId>jsp-api</artifactId>
+      <groupId>jakarta.servlet.jsp</groupId>
+      <artifactId>jakarta.servlet.jsp-api</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -174,7 +174,7 @@
     </dependency>
 
     <dependency>
-        <groupId>org.apache.tiles</groupId>
+        <groupId>com.github.tntim96.tiles</groupId>
         <artifactId>tiles-request-jsp</artifactId>
         <version>${tiles.request.version}</version>
     </dependency>

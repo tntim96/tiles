@@ -25,7 +25,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>tiles-test-pom</artifactId>
-    <groupId>org.apache.tiles</groupId>
+    <groupId>com.github.tntim96.tiles</groupId>
     <version>3.1-SNAPSHOT</version>
   </parent>
   <artifactId>tiles-test-db</artifactId>
@@ -37,7 +37,7 @@
   </properties>
   <dependencies>
     <dependency>
-       <groupId>org.apache.tiles</groupId>
+       <groupId>com.github.tntim96.tiles</groupId>
        <artifactId>tiles-test-common</artifactId>
        <version>${project.version}</version>
     </dependency>

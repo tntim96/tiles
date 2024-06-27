@@ -25,7 +25,7 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>tiles-parent</artifactId>
-    <groupId>org.apache.tiles</groupId>
+    <groupId>com.github.tntim96.tiles</groupId>
     <version>3.1-SNAPSHOT</version>
   </parent>
   <artifactId>tiles-test-pom</artifactId>

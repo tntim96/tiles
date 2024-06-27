@@ -17,7 +17,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <parent>
-    <groupId>org.apache.tiles</groupId>
+    <groupId>com.github.tntim96.tiles</groupId>
     <artifactId>tiles-parent</artifactId>
     <version>3.1-SNAPSHOT</version>
   </parent>
@@ -79,7 +79,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.apache.tiles</groupId>
+      <groupId>com.github.tntim96.tiles</groupId>
       <artifactId>tiles-core</artifactId>
     </dependency>
 
@@ -117,24 +117,24 @@
     </dependency>
 
     <dependency>
-      <groupId>javax.el</groupId>
-      <artifactId>el-api</artifactId>
+      <groupId>jakarta.el</groupId>
+      <artifactId>jakarta.el-api</artifactId>
+      <version>5.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>javax.servlet.jsp</groupId>
-      <artifactId>jsp-api</artifactId>
+      <groupId>jakarta.servlet.jsp</groupId>
+      <artifactId>jakarta.servlet.jsp-api</artifactId>
       <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.apache.tomcat</groupId>
-      <artifactId>jasper-el</artifactId>
-      <version>6.0.20</version>
+      <artifactId>tomcat-jasper-el</artifactId>
+      <version>10.0.27</version>
       <scope>test</scope>
       <exclusions>
         <exclusion>

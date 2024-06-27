@@ -25,10 +25,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <artifactId>tiles-test-pom</artifactId>
-    <groupId>org.apache.tiles</groupId>
+    <groupId>com.github.tntim96.tiles</groupId>
     <version>3.1-SNAPSHOT</version>
   </parent>
-  <groupId>org.apache.tiles</groupId>
+  <groupId>com.github.tntim96.tiles</groupId>
   <artifactId>tiles-test-common</artifactId>
   <version>3.1-SNAPSHOT</version>
   <name>Tiles - Test webapp common classes</name>

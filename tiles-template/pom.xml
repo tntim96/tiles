@@ -23,13 +23,13 @@
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.apache.tiles</groupId>
+  <groupId>com.github.tntim96.tiles</groupId>
   <artifactId>tiles-template</artifactId>
   <name>Tiles - Template Technologies Support</name>
   <description>Common code for integration of Tiles for different templating technologies.</description>
   <parent>
     <artifactId>tiles-parent</artifactId>
-    <groupId>org.apache.tiles</groupId>
+    <groupId>com.github.tntim96.tiles</groupId>
     <version>3.1-SNAPSHOT</version>
   </parent>
   <properties>
@@ -39,7 +39,7 @@
   <build>
     <plugins>
       <plugin>
-        <groupId>org.apache.tiles.autotag.plugin</groupId>
+        <groupId>com.github.tntim96.tiles.autotag.plugin</groupId>
         <artifactId>maven-autotag-plugin</artifactId>
         <version>${tiles.autotag.version}</version>
         <executions>
@@ -58,7 +58,7 @@
   </build>
   <dependencies>
     <dependency>
-      <groupId>org.apache.tiles</groupId>
+      <groupId>com.github.tntim96.tiles</groupId>
       <artifactId>tiles-api</artifactId>
     </dependency>
 
@@ -96,7 +96,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-        <groupId>org.apache.tiles</groupId>
+        <groupId>com.github.tntim96</groupId>
         <artifactId>tiles-autotag-core-runtime</artifactId>
         <version>${tiles.autotag.version}</version>
     </dependency>
