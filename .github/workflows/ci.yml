@@ -16,4 +16,4 @@ jobs:
           cache: maven
       - name: Run the Maven verify phase
 #        run: mvn --batch-mode --update-snapshots test-compile
-        run: mvn --batch-mode --update-snapshots -DargLine="--add-opens=java.base/java.lang=ALL-UNNAMED" verify
+        run: mvn --batch-mode --update-snapshots verify
