@@ -34,7 +34,7 @@
   <packaging>jar</packaging>
   <name>Tiles - JSP support</name>
   <description>Tiles JSP support: Classes and tag libraries to use Tiles in a
-  JSP environment.</description>
+  JSP environment. Upgraded to the Jakarta EE platform.</description>
 
   <properties>
       <tiles.osgi.symbolicName>org.apache.tiles.jsp</tiles.osgi.symbolicName>

@@ -30,7 +30,7 @@
   </parent>
   <artifactId>tiles-test-alt</artifactId>
   <name>Tiles - Test webapp alternate configuration</name>
-  <description>Alternate configuration for the test webapp.</description>
+  <description>Alternate configuration for the test webapp. Upgraded to the Jakarta EE platform.</description>
   <properties>
       <!-- decrease this whenever possible -->
       <checkstyle.maxAllowedViolations>3</checkstyle.maxAllowedViolations>

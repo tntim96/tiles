@@ -33,7 +33,7 @@
   <artifactId>tiles-compat</artifactId>
   <packaging>jar</packaging>
   <name>Tiles - Compatibility</name>
-  <description>Tiles compatibility library, to help migration from Struts-Tiles.
+  <description>Tiles compatibility library, to help migration from Struts-Tiles. Upgraded to the Jakarta EE platform.
   </description>
 
   <properties>

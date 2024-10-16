@@ -24,7 +24,7 @@
   <artifactId>tiles-assembly</artifactId>
   <packaging>pom</packaging>
   <name>Tiles Assembly</name>
-  <description>Tiles Assembly: assembles artifact to produce distributions.
+  <description>Tiles Assembly: assembles artifact to produce distributions. Upgraded to the Jakarta EE platform.
   </description>
 
   <parent>

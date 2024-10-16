@@ -33,7 +33,7 @@
   <artifactId>tiles-extras</artifactId>
   <packaging>jar</packaging>
   <name>Tiles - Extras</name>
-  <description>Extras for Tiles, including non-standard, non-generic, non-identifiable components that may be useful for Tiles users.
+  <description>Extras for Tiles, including non-standard, non-generic, non-identifiable components that may be useful for Tiles users. Upgraded to the Jakarta EE platform.
   </description>
 
   <properties>

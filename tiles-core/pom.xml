@@ -33,7 +33,7 @@
   <artifactId>tiles-core</artifactId>
   <packaging>jar</packaging>
   <name>Tiles - Core Library</name>
-  <description>Tiles Core Library, including basic implementation of the APIs.
+  <description>Tiles Core Library, including basic implementation of the APIs. Upgraded to the Jakarta EE platform.
   </description>
 
   <properties>

@@ -26,7 +26,7 @@
   <groupId>com.github.tntim96.apache.tiles</groupId>
   <artifactId>tiles-template</artifactId>
   <name>Tiles - Template Technologies Support</name>
-  <description>Common code for integration of Tiles for different templating technologies.</description>
+  <description>Common code for integration of Tiles for different templating technologies. Upgraded to the Jakarta EE platform.</description>
   <parent>
     <artifactId>tiles-parent</artifactId>
     <groupId>com.github.tntim96.apache.tiles</groupId>

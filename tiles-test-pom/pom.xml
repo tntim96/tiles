@@ -31,7 +31,7 @@
   <artifactId>tiles-test-pom</artifactId>
   <packaging>pom</packaging>
   <name>Tiles test webapp module collector</name>
-  <description>Collects all the modules of the Tiles test web application.</description>
+  <description>Collects all the modules of the Tiles test web application. Upgraded to the Jakarta EE platform.</description>
   <modules>
     <module>tiles-test-common</module>
     <module>tiles-test-alt</module>

@@ -33,7 +33,7 @@
   <artifactId>tiles-servlet</artifactId>
   <packaging>jar</packaging>
   <name>Tiles - Servlet support</name>
-  <description>Tiles servlet support, to enable use of Tiles inside a Servlet environment.
+  <description>Tiles servlet support, to enable use of Tiles inside a Servlet environment. Upgraded to the Jakarta EE platform.
   </description>
 
   <properties>

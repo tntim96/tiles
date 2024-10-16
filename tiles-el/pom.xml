@@ -26,7 +26,7 @@
   <artifactId>tiles-el</artifactId>
   <packaging>jar</packaging>
   <name>Tiles - EL support</name>
-  <description>Tiles EL (Expression Language) support: Classes and tag libraries to use EL as an expression language in attribute expressions.	</description>
+  <description>Tiles EL (Expression Language) support: Classes and tag libraries to use EL as an expression language in attribute expressions. Upgraded to the Jakarta EE platform.</description>
 
   <properties>
     <tiles.osgi.symbolicName>org.apache.tiles.el</tiles.osgi.symbolicName>

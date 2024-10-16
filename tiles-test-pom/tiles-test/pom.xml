@@ -33,7 +33,7 @@
    <artifactId>tiles-test</artifactId>
    <packaging>war</packaging>
    <name>Tiles - Apps - Test</name>
-   <description>Tiles Test web application: tests Tiles functionality.
+   <description>Tiles Test web application: tests Tiles functionality. Upgraded to the Jakarta EE platform.
    </description>
   <properties>
       <!-- decrease this whenever possible -->

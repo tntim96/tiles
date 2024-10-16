@@ -34,7 +34,7 @@
     <packaging>jar</packaging>
     <name>Tiles - API</name>
     <description>Tiles APIs, containing interfaces and classes to interact with
-    Tiles.</description>
+    Tiles. Upgraded to the Jakarta EE platform.</description>
 
     <properties>
         <tiles.osgi.symbolicName>org.apache.tiles.api</tiles.osgi.symbolicName>

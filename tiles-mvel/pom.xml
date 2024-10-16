@@ -33,7 +33,7 @@
   <artifactId>tiles-mvel</artifactId>
   <packaging>jar</packaging>
   <name>Tiles - MVEL support</name>
-  <description>Tiles MVEL support: Classes and tag libraries to use MVEL as an expression language in attribute expressions.</description>
+  <description>Tiles MVEL support: Classes and tag libraries to use MVEL as an expression language in attribute expressions. Upgraded to the Jakarta EE platform.</description>
 
   <properties>
       <tiles.osgi.symbolicName>org.apache.tiles.mvel</tiles.osgi.symbolicName>
