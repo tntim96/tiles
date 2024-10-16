@@ -24,9 +24,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <parent>
-    <groupId>com.github.tntim96.tiles</groupId>
+    <groupId>com.github.tntim96.apache.tiles</groupId>
     <artifactId>tiles-parent</artifactId>
-    <version>3.1-SNAPSHOT</version>
+    <version>3.1.0.0-SNAPSHOT</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
@@ -70,7 +70,7 @@
         </configuration>
       </plugin>
       <plugin>
-        <groupId>com.github.tntim96.tiles.autotag.plugin</groupId>
+        <groupId>com.github.tntim96.apache.tiles.autotag.plugin</groupId>
         <artifactId>maven-autotag-plugin</artifactId>
         <version>${tiles.autotag.version}</version>
         <executions>
@@ -117,11 +117,11 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.github.tntim96.tiles</groupId>
+      <groupId>com.github.tntim96.apache.tiles</groupId>
       <artifactId>tiles-servlet</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.github.tntim96.tiles</groupId>
+      <groupId>com.github.tntim96.apache.tiles</groupId>
       <artifactId>tiles-template</artifactId>
     </dependency>
 
@@ -179,7 +179,7 @@
     </dependency>
 
     <dependency>
-        <groupId>com.github.tntim96.tiles</groupId>
+        <groupId>com.github.tntim96.apache.tiles</groupId>
         <artifactId>tiles-request-jsp</artifactId>
         <version>${tiles.request.version}</version>
     </dependency>
