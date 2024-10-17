@@ -33,7 +33,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.github.tntim96.apache.tiles</groupId>
     <artifactId>tiles-parent</artifactId>
-    <version>3.1.0.0-SNAPSHOT</version>
+    <version>3.1.0.0</version>
     <packaging>pom</packaging>
     <name>Tiles 3</name>
     <description>Tiles 3: A framework for page composition. Upgraded to the Jakarta EE platform.</description>
